@@ -1,0 +1,31 @@
+id,title,description
+1526,"User's language preference is set to Spanish, but error messages are shown in English","In the user settings, the language is set to Spanish, and the user interface shows up in Spanish. However, when the user attempts to access a file they do not have permission to access, the error message is in English."
+1527,Update color pallette to have more contrast,It's hard to see the black text on the gray background.
+1528,Submitting form does not run on Firefox,"Clicking the buttons to submit a form does not work on Firefox, even though following the same steps works on Google Chrome."
+1529,User opted into email alerts but does not receive an email,"User settings have both email and text alerts on. When the complaint is updated, the user is receiving text messages but has not received any emails."
+1530,A non-admin user has access to the powers of an admin,"A non-admin user sees the same display that an admin can see, and can see other users and the groups they are assigned to."
+1531,Text on the home page flows off the screen,The first paragraph under the title is cut off when the window size is too small.
+1532,Search function not displaying any results,"Even when searching the titles of cases that appear in the database, they do not appear in the search bar."
+1533,"Search function displaying all results, not just those that match the query","I searched ""burglary"" but got all 3123 results from the databased, not just those that match ""burglary""."
+1534,"If user clicks back button in the middle of submitting a complaint, complaint is duplicated","I started a complaint but did not click all the way through to ""Submit"". Then I used the back button and then ""Next"" button and then ""Submit"". The complaint appeared twice in the database."
+1535,Add offine functionality,
+1536,Audit trails for cases filed in February 2013 are missing,
+1537,Heading on the home page is not centered,"Headings on other pages are centered, so this should be consistent"
+1538,New report confusing for citizen user,New users were shown the system but were not able to figure out how to make a report without instruction.
+1539,Audit trail does not keep track of unauthorized requests,"Audit trail seems to only be showing requests that succeeded, not those that were rejected."
+1540,Text of reports is too small,"Make the font size bigger or make the user be able to change the font size, as some users might find it hard to read."
+1541,Submission of complaint throws an error when back button is used,"Clicked through the first two screens for making a complaint, then tried to go back to modify response on the first screen and got an error."
+1542,Images are not loading,"Space is held for the images, but they are not showing up on any pages"
+1543,Add email authorization,"Beyond the user id and password, add authentication via email. Send a code or link via email to ensure the user is who they say they are."
+1544,Users cannot be part of more than one group,"When admin tries to assign a user to a new group, it automatically removes them from the group they were already in."
+1545,Changes in configurations do not save if user logs out and logs back in,"User logs in, moves the widgets around on their dashboard to meet their preferences, logs out, and then logs back in. The dashboard has reset to the default configuration."
+1546,Make it easier to navigate back to home screen,"After completing a report, the user cannot easily get back to the home screen. There should be an obvious button for how to return home."
+1547,Inconsistent styling on profile page,"The home page and profile pages have different fonts for headers, looks unprofessional."
+1548,Add single sign on,Make compatible with single sign on for use by organizations that already have a sign on system
+1549,Check text-only option,Check that the automatically generated versions of text without the stylesheets are still readable.
+1550,Submit button does not redirect,Clicking the submit button at the end of a report will enter into the database but does not redirect the user or provide any feedback that it worked.
+1551,Cases take a long time to load,"Searching for a particular case will load eventually, but sometimes takes several minutes."
+1552,Cases not syncing between stations,Cases filed under the jurisdiction of one police station are not showing up for other stations.
+1553,Fix login,"Users can bypass the login step by clicking login without entering anything into the fields, and access a blank public profile."
+1554,New report should be in new tab,Starting a new report should open a new tab so the user does not lose their place and can refer to information on the main pages.
+1555,Alerts don't disappear,"Alerts in the Alerts tab get appended to but never go away, so the list grows indefinitely."
