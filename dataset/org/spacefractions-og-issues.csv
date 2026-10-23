@@ -1,0 +1,26 @@
+id,title,description
+1,User Scores Not Saving,Users lose their scores after completing the game.
+2,Add Customization Options for Administrators,Administrators should be able to customize game settings and questions easily. Introduce options for more customization.
+3,FAQ Section in Help Menu,Add a frequently asked questions section to the help menu to address common user concerns.
+4,Math Umbrella Outdated,Links in the math umbrella are not up-to-date and produce 404 errors.
+5,Improve Graphics for Sixth Graders,Sixth graders were not engaged by the graphics. Update visuals with elements exciting for younger audiences.
+6,Incorrect Audio Feedback for Answers,No audio feedback when users select the correct/incorrect answer. Add sound effects for certain responses to improve user experience.
+7,User Progress Tracking Missing,Users cannot track their progress while in the game. Implement a progress tracker.
+8,Incorrect Answers Do Not Give Helpful Feedback,Incorrect answers display a generic message. Add specific explanations for wrong choices to aid learning.
+9,Flash Movies Take Too Long to Load,Users on slower connections/devices experience long load times. Attempt to optimize assets or add a loading indicator.
+10,Add a Hint Button,Add a hint option to questions to provide helpful information about questions to users.
+11,Game Does Not Handle Small Sized Screens Well,"Game fails to adjust properly to very small screens, displaying overlapping elements."
+12,Questions Are Repeated,Identical questions are shown more than once per game sequence. Improve question randomization.
+13,Error Handling in Question Updater,"If invalid data is entered by an adminstrator, there is no clear error message. Improve validation and error messages."
+14,Score Display Shows Incorrect Values,The final score does not always reflect the user's correct answers. Fix score calculation.
+15,Skipping the Introductory Movie Causes Visual Errors,"When skipped, some UI elements fail to load correctly. Fix scene transitions."
+16,Replaying Game Does Not Reset User Score,Restarting the game does not reset the player's score.
+17,Missing Hover Effects,Buttons do not change appearence when hovered over. Improve visual feedback for buttons.
+18,Reloading Browser Breaks Game Sequence,"If the user reloads the browser, the game fails to load correctly, resetting user progress. Implement a progress saving feature."
+19,Robotic Sidekick UI Improvement,Make the robotic sidekick react based on correct/incorrect answers and the general storyline.
+20,Introduce a Timer,Create the option for a timed mode where users time is recorded in addition to their score.
+21,Accessibility Options,"Introduce accessibility features such as text-to-speech, text/font size adjusters, or colorblind friendly color palettes."
+22,Question Updater Not Secure,"The question updater component fails to ask for a password consistently, introducing security concerns."
+23,Add Descriptions for Math Umbrella Links,"Math Umbrella links do not always have a helpful/relevant description for each project. For example, problems about adding fractions just show visual representations of the fractions."
+24,Implement Search Function in Math Umbrella,Add a search bar in the math umbrella to allow users to quickly find S2S projects.
+25,Program Interface is Confusing,"The program interface is confusing and unintuitive, especially for younger users with little technology experience. Create a simpler menu."
