@@ -1,0 +1,92 @@
+id,title,content
+1451,The Search module of the CCTNS gives police personnel the ability to execute a basic or advanced search on cases. ,
+1452,"Using the search functionality, police personnel can search for a particular person, type of crime, modus operandi, property etc. ",
+1453,The Search module gives the user the ability to customize the results view by criminal/accused or by cases.,
+1454,"The Search module makes reporting easy for police by enabling them to execute different types of queries such as monthly reporting, RTI related etc.",
+1455,The Citizen Interface module of the CCTNS acts as a conduit for the information exchange between citizens and police units/personnel. ,
+1456,Citizens can use the Citizen Interface as a tool to get information or acknowledgements from police.,
+1457,The police in turn can use the Citizen Interface to respond to citizens with very little turnaround time. It improves overall productivity by helping citizens and police to cut short the drudgery of large amounts of paperwork.,
+1458,The Navigation module of the CCTNS provides role based landing pages which help in navigating through the CCTNS application.,
+1459,"The Navigation module shows information such as cases assigned, alerts, pending tasks etc hence helping police personnel to plan better and execute with greater efficiency.",
+1460,The Configuration module of the CCTNS helps keep the application configured according to the states’ requirements in addition to keeping data elements/rules up to date.,
+1461,"With a proper configuration, information such as act and sections, state specific data, castes, tribes, property information etc. can be created updated and deleted.",
+1462,The solution should provide detailed context-sensitive help material for all the possible actions and scenarios on all user interfaces in the application.,
+1463,The solution should provide an interface for the user to log any defects or enhancement requests on the application and track thereafter.,
+1464,"The solution should send alerts (e.g., email, SMS) to the user if the user chooses to whenever any action has been taken on the alert.",
+1465,The solution should enable the user to track the submitted defect or enhancement request.,
+1466,"The solution should enable the help-desk user to view the reports on the submitted defects or enhancement requests category-wise, status-wise, and age- wise.",
+1467,The support solution should be accessible to the users both from within the application and also outside the application through a browser interface.,
+1468,Audit trail,"The System must keep an unalterable audit trail capable of automatically capturing and storing information about: All the actions (create/read/update/delete) that are taken upon the critical entities (case, suspect, property,...) in the system; The user initiating and or carrying out the action; The date and time of the event; Administrative parameters"
+1469,"Once the audit trail functionality has been activated, the System must track events without manual intervention, and store in the audit trail information about them.",
+1470,"The System must maintain the audit trail for as long as required, which will be at least for the life of the case to which it refers.",
+1471,"The System must ensure that audit trail data is available for inspection on request, so that a specific event can be identified and all related data made accessible.",
+1472,The System must ensure that audit trail data is available for inspection by authorised external personnel who have little or no familiarity with the system.,
+1473,The System must be able to export audit trails for specified cases without affecting the audit trail stored by the System.,
+1474,External auditors who wish to examine or analyse system activity must be able to export audit trails for specified cases,
+1475,"The System must be able to capture and store violations (i.e. A user’s attempts to access a case to which he is denied access), and (where violations can validly be attempted) attempted violations, of access control mechanisms.",
+1476,The System must at a minimum be able to provide reports for actions on cases organised: By case; By user; In chronological sequence,
+1477,The System should be able to provide reports for actions on cases organised by workstation and (where technically appropriate) by network address.,
+1478,The System must allow the user to limit access to cases to specified users or user groups.,
+1479,The system should provide for role-based control for the functionality within the system,
+1480,The System must allow a user to be a member of more than one group.,
+1481,The System must allow only admin-users to set up user profiles and allocate users to groups.,
+1482,The System should allow a user to stipulate which other users or groups can access cases.,
+1483,"The System must allow changes to security attributes for groups or users (such as access rights, security level, privileges, password allocation and management) to be made only by super-user.",
+1484,access,"If a user requests access to, or searches for, a case which he does not have the right to access, the System must provide one of the following responses (selectable at configuration time): display title and metadata; display the existence of a case but not its title or other metadata; do not display any case information or indicate its existence in any way"
+1485,"If a user performs a quick or advanced search, the System must never include in the search result list any record which the user does not have the right to access.",
+1486,"If the System allows users to make unauthorised attempts to access cases, it must log these in the audit trail.",
+1487,"Any access to cases, and all other activities involving the cases and related documents or data should also need to be stored in the audit trail to ensure legal admissibility and to assist in data recovery.",
+1488,Error actions,"All error messages produced by the System must be meaningful, so that they can be appropriately acted upon by the users who are likely to see them. Ideally, each error message will be accompanied by explanatory text and an indication of the action(s) which the user can take in response to the error."
+1489,"The System must employ a single set of user interface rules, or a small number of sets to provide a familiar and common look and feel for the application.",
+1490,"The System must be able to display several entities (cases, suspects) simultaneously.",
+1491,"The interfaces must be made customizable or user-configurable to the extent possible. (e.g., the displayed columns in the table, move, resize, modify the appearance).",
+1492,Customizable configurations must be saved in the user profile.,
+1493,"The System user interface must be suitable for users with special needs; that is, compatible with specialist software that may be used and with appropriate interface guidelines",
+1494,The System must provide End User and Administrator functions which are easy to use and intuitive throughout.,
+1495,"The System must allow persistent defaults for data entry where desirable. These defaults should include: user-definable values; values same as previous item; values derived from context, e.g. date, file reference, user identifier",
+1496,Frequently-executed System transactions must be designed so that they can be completed with a small number of interactions (e.g. mouse clicks).,
+1497,Interface customization,"Where the System employs a graphical user interface, it must allow users to customise it. Customisation should include, but need not be limited to the following changes: menu contents; layout of screens; use of function keys; on-screen colours, fonts and font sizes"
+1498,The user interfaces should be designed to make them user-intuitive.,
+1499,The user interfaces of the system should comply with Standard ISO 9241.,
+1500,ISO 9241-20 shall be the standard for guidance on ICT accessibility. Application user interfaces to meet its requirements and recommendations.,
+1501,Software accessibility ISO 9241-171 shall be the standard for guidance on software accessibility. User interfaces should meet its requirements and recommendations.,
+1502,Content accessibility WCAG 1.0 shall be the standard used for guidance on content accessibility.,
+1503,The application logo to be available on all pages as a link to the home page.,
+1504,"All non-text media objects, such as graphical images or video, should be provided with alternative equivalent textual descriptions and/or with equivalent text-based functionality.",
+1505,"Navigation should be designed to help users understand where they are, where they have been and where they can go next. General guidance on achieving self-descriptiveness is given in ISO 9241-110.",
+1506,Each presentation segment (page or window) should provide the user with a clear and sufficient indication of where he or she is in the navigation structure and of the current segment position with respect to the overall structure.,
+1507,Alternative access paths for navigating to a specific unit of content should be offered to support different navigation strategies.,
+1508,"The number of navigation steps needed to reach a certain piece of content should be minimized as long as different mental models, navigation strategies and tasks of the user are taken into account.",
+1509,"Splash screens should be avoided unless they provide useful content or feedback about the application state to the user. If a splash screen is used, a navigation option to skip it should be offered.",
+1510,Additional windows such as new browser windows or pop-up windows should only be opened if this supports the user’s task.,
+1511,Vertical scrolling should be minimized. This may be done by placing important information at the top and providing links to information that is further down the page.,
+1512,Horizontal scrolling should be avoided wherever possible.,
+1513,Input devices,"User interfaces should be designed to allow activation of controls by a variety of input devices. The ability to choose between different input devices for activating controls such as links, fields and buttons is important both for users who prefer a certain input mode, mobile users and users with disabilities. In general, device independence can be achieved if the functionality is operable via a keyboard."
+1514,Changing technology,User interfaces should be designed to be as robust as possible in the face of changing technology. This encompasses being able to present content containing newer technologies by older user agents as well as designing content to be usable with future technologies.
+1515,Open/download times,"Application pages should be designed and implemented so that there are acceptable opening times and download times for the expected range of technical contexts of use (e.g. bandwidth between the application and the user). This is particularly important for frequently accessed pages or pages that are important for user navigation and exploration, such as the home page."
+1516,Potential user errors as well as the effort needed to recover from errors should be minimized.,
+1517,Errors,"The content of error messages shown on the pages or special error pages should clearly state the reason why the error occurred and, if possible, actions the user can take to resolve the error. Users expect error messages to be in the same language as the user interface."
+1518,Internationalization,"When designing user interfaces for use by diverse groups, input and output of information elements such as currency, units of measurement, temperatures, date and time, phone numbers, address or postal codes should be designed so that they are usable."
+1519,"Text should be able to be resized by the user, using functions provided by the user agent or other appropriate means i.e. see ISO 9241-171.",
+1520,The quality of textual content with respect to spelling and grammar should be sufficient so as not to impede readability.,
+1521,Screen readability,"The reading and understanding of the textual content on the screen should be supported by suitable means, including the use of short sentences, the division of the text into shorter chunks or the presentation of content items in the form of bullet points."
+1522,"Fast skimming of text should be supported by the provision of clear links, bulleted lists, highlighted keywords, logical headings, and short phrases and sentences.",
+1523,Text presented on the pages should be readable taking into account the expected display characteristics and spatial arrangement. ISO 9241-303 shall be consulted for screen text legibility requirements.,
+1524,Within-page links should be clearly distinguishable from other links that lead to a different page.,
+1525,Text pages containing large proportions of links should be formatted so that the presence of links does not impede the readability of the text.,
+1526,Navigation links,"Navigation links, particularly links representing the main navigation structure, should be labelled with terms that are familiar to the user, based on his/her general knowledge, prior experience in the application domain or experience of using other systems."
+1527,Link labels,"The target or purpose of a link should be directly indicated by its label, avoiding generic labels such as “go” or “click here” except where the purpose of the link is clear from its context on the page or the labels have commonly understood semantics in the particular application domain. Using appropriate terminology specific to the user’s tasks and information needs is important for making the content easy to understand."
+1528,Links that open new browser windows or pop-up windows should be clearly marked.,
+1529,Navigation vs controls,"Navigation links should be clearly distinguishable from controls activating some action. Typical action types in user interfaces include manipulating application data, performing searches, communication actions, such as opening a new e-mail window or starting a chat function, and presentation-related actions, such as sorting a list of search results."
+1530,Doc too long,"If a document is either too long, dispersed over several pages or in a specific layout that is not suitable for online reading, a printer-friendly version of the document should be provided that prints the content in a form acceptable to the user (e.g. in the expected layout, paper format, or orientation)."
+1531,White space,"White space on a page i.e. space filled only with the background color should be used in such a way that it does not impair the visual skimming of the page. While white space is an important means of visually organizing the different content elements on a page, if the distance between the blocks of information displayed becomes too large, rapid skimming of the page can be impeded."
+1532,Page length,"The length of a page should be selected so as to support the primary purpose and use of the page. Short pages are generally more appropriate for homepages, navigation pages, or overview pages that need to be read quickly. Longer pages can be more appropriate when users want to read the content without interruptions or when the page needs to match a paper counterpart."
+1533,"Colour should be used with care, taking into account human capabilities and restrictions in perceiving colour, and not as the only means of conveying information.",
+1534,Color should never be the only means of coding. Some users may have difficulties in perceiving certain colors or color combinations (color-blindness).,
+1535,Frames,"If frames are used, care should be taken to avoid possible problems, for example, those involving the use of the back button, bookmarking of pages, or scrolling of information. When frames are used, it is important to title each frame, and to describe its purpose and how frames relate to one another other."
+1536,"If frames are used, an alternative way of presenting relevant information without frames should be provided.",
+1537,"When style sheets and/or frames are turned off it should be possible for the user to read and understand the page; alternatively, the user should be provided with an equivalent alternative text-only page.",
+1538,Page layout,"Pages should be designed using consistent layout schemes, supporting the user in finding similar information at the same position on different pages. Overall layout schemes apply to all pages and are preferable when all pages have a similar structure. Frequently, however, different pages have different purposes and types of content. In such cases, pages can usually be grouped in different categories, using one layout scheme for each category consistently."
+1539,Page titles should be placed in a consistent location on the different pages.,
+1540,"When designing application pages, the general principles of human perception should be taken into account.",
+1541,Each page should contain a link leading to the home page of the application or to a landmark page that is easy to recognize for the user.,
